@@ -1,0 +1,14 @@
+release/board.o
+release/gallery.o
+release/main.o
+release/menu.o
+release/splash.o
+release/qrc_1st_image.o
+release/qrc_2nd_image.o
+release/qrc_3nd_image.o
+release/qrc_4th_image.o
+release/qrc_5th_image.o
+release/moc_board.o
+release/moc_gallery.o
+release/moc_menu.o
+release/moc_splash.o

@@ -1,0 +1,14 @@
+debug/board.o
+debug/gallery.o
+debug/main.o
+debug/menu.o
+debug/splash.o
+debug/qrc_1st_image.o
+debug/qrc_2nd_image.o
+debug/qrc_3nd_image.o
+debug/qrc_4th_image.o
+debug/qrc_5th_image.o
+debug/moc_board.o
+debug/moc_gallery.o
+debug/moc_menu.o
+debug/moc_splash.o
