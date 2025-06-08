@@ -1,5 +1,5 @@
 /********************************************************************************
-** Form generated from reading UI file 'gallery.ui'
+** Form generated from reading UI file 'Gallery.ui'
 **
 ** Created by: Qt User Interface Compiler version 6.8.0
 **

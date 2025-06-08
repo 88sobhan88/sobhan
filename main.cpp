@@ -1,6 +1,6 @@
-#include "splash.h"
-#include  "menu.h"
-
+#include "Splash.h"
+#include  "Menu.h"
+#include "Board.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

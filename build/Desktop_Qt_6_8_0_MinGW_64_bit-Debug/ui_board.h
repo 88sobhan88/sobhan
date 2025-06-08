@@ -1,5 +1,5 @@
 /********************************************************************************
-** Form generated from reading UI file 'board.ui'
+** Form generated from reading UI file 'Board.ui'
 **
 ** Created by: Qt User Interface Compiler version 6.8.0
 **
@@ -29,13 +29,14 @@ public:
     {
         if (Board->objectName().isEmpty())
             Board->setObjectName("Board");
-        Board->resize(800, 600);
+        Board->resize(1278, 764);
+        Board->setStyleSheet(QString::fromUtf8(""));
         centralwidget = new QWidget(Board);
         centralwidget->setObjectName("centralwidget");
         Board->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Board);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 26));
+        menubar->setGeometry(QRect(0, 0, 1278, 26));
         Board->setMenuBar(menubar);
         statusbar = new QStatusBar(Board);
         statusbar->setObjectName("statusbar");

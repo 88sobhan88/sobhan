@@ -279,7 +279,9 @@ Makefile: ../../tactical_monster.pro ../../../../qt/6.8.0/mingw_64/mkspecs/win32
 		../../2nd_image.qrc \
 		../../3nd_image.qrc \
 		../../4th_image.qrc \
-		../../5th_image.qrc
+		../../5th_image.qrc \
+		../../board.qrc \
+		../../pic.qrc
 	$(QMAKE) -o Makefile ..\..\tactical_monster.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 ../../../../qt/6.8.0/mingw_64/mkspecs/features/spec_pre.prf:
 ../../../../qt/6.8.0/mingw_64/mkspecs/features/device_config.prf:
@@ -491,6 +493,8 @@ Makefile: ../../tactical_monster.pro ../../../../qt/6.8.0/mingw_64/mkspecs/win32
 ../../3nd_image.qrc:
 ../../4th_image.qrc:
 ../../5th_image.qrc:
+../../board.qrc:
+../../pic.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\tactical_monster.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 

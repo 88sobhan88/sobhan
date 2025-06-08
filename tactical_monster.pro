@@ -9,23 +9,28 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    board.cpp \
-    gallery.cpp \
-    main.cpp \
-    menu.cpp \
-    splash.cpp
+    Agent.cpp \
+    Board.cpp \
+    Gallery.cpp \
+    Hex.cpp \
+    HexBoard.cpp \
+    Menu.cpp \
+    Splash.cpp \
+    main.cpp
 
 HEADERS += \
-    board.h \
-    gallery.h \
-    menu.h \
-    splash.h
+    Agent.h \
+    Board.h \
+    Gallery.h \
+    Hex.h \
+    HexBoard.h \
+    Menu.h \
+    Splash.h
 
 FORMS += \
-    board.ui \
-    gallery.ui \
-    menu.ui \
-    splash.ui
+    Gallery.ui \
+    Menu.ui \
+    Splash.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -37,4 +42,6 @@ RESOURCES += \
     2nd_image.qrc \
     3nd_image.qrc \
     4th_image.qrc \
-    5th_image.qrc
+    5th_image.qrc \
+    board.qrc \
+    pic.qrc
